@@ -1,13 +1,93 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Rechteck_3",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Rechteck_3",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3145009416195857,
+      "y": 0.5689277899343544,
+      "uniqueID": "id-12",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.46939736346516003,
+      "y": 0.3304157549234136,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Rechteck_3",
+          "currentEquation": "Rechteck_3"
+        }
+      ],
+      "partName": "Rechteck_3",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Text",
+      "x": 0.1756120527306968,
+      "y": 0.4551422319474836,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Lorem Ipsum",
+          "currentEquation": "Lorem Ipsum"
+        }
+      ],
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 0
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-12",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-2"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
