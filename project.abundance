@@ -14,13 +14,13 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3145009416195857,
-      "y": 0.5689277899343544,
+      "x": 0.3168549905838042,
+      "y": 0.525164113785558,
       "uniqueID": "id-12",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 5
         }
       ]
     },
@@ -32,7 +32,8 @@
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 6.35,
+          "currentEquation": "6.35"
         },
         {
           "name": "Passes",
@@ -63,12 +64,12 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 10
+          "ioValue": 30
         },
         {
           "name": "Text",
-          "ioValue": "Lorem Ipsum",
-          "currentEquation": "Lorem Ipsum"
+          "ioValue": "M",
+          "currentEquation": "M"
         }
       ],
       "fontFamily": "ROBOTO",
@@ -85,6 +86,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-24",
+      "ap2ID": "id-12"
     }
   ],
   "unitsKey": "MM",
